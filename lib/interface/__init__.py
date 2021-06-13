@@ -18,7 +18,7 @@ def fazedor_de_linhas(tam=42):
     return '\033[1;33m=\033[m' * tam
 
 def cabecalho(texto):
-    if texto == '\033[1;97mDELIVERY\033[m':
+    if texto == '\033[1;97mDELI VERY\033[m':
         print(fazedor_de_linhas())
         print(texto.center(51))
         print(fazedor_de_linhas())

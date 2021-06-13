@@ -8,7 +8,7 @@ if not estoqueExiste(arquivo):
     criarEstoque(arquivo)
 
 while True:
-    cabecalho('\033[1;97mDELIVERY\033[m')
+    cabecalho('\033[1;97mDELI VERY\033[m')
 
     resposta = menu(['Cadastrar', 'Listar', 'Sair do Sistema'])
     if resposta == 1:
